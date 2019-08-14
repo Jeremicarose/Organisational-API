@@ -80,7 +80,6 @@ public class Sql2oNewsDaoTest {
         assertEquals(0, newsDao.getAll().size());
     }
 
-    //helper
     public News setUpNews(){
         News news = new News("",2);
         newsDao.add(news);

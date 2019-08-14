@@ -30,8 +30,8 @@ public class App {
         Sql2oUserDao userDao = new Sql2oUserDao(DB.sql2o);
         Sql2oNewsDao newsDao = new Sql2oNewsDao(DB.sql2o);
         Sql2oDepartmentDao departmentDao = new Sql2oDepartmentDao(DB.sql2o);
-        final String notAvailableMsg = "Sorry, we do not have any %s to display currently",notAvailable;
-        final String cannotBeEmptyMsg = "Warning!!!, %s cannot be empty!!!, Please try again",cannotBeEmpty;
+//        final String notAvailableMsg = "Sorry, we do not have any %s to display currently",notAvailable;
+//        final String cannotBeEmptyMsg = "Warning!!!, %s cannot be empty!!!, Please try again",cannotBeEmpty;
         Gson gson = new Gson();
 
 
