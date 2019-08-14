@@ -66,7 +66,7 @@ public class App {
             res.type("application/json");
             res.status(201);
             return gson.toJson(department);
-        });
+        });;
 
 
 
