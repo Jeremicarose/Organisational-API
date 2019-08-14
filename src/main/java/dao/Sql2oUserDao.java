@@ -63,7 +63,7 @@ public class Sql2oUserDao implements UserDao {
                     .addParameter("id", id)
                     .executeUpdate();
         } catch (Sql2oException ex) {
-            System.out.println(ex);;
+            System.out.println(ex);
         }
     }
 

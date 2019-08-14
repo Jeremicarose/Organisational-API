@@ -19,7 +19,7 @@ public class DbRule extends ExternalResource {
         userDao = new Sql2oUserDao(sql2o);
         departmentDao = new Sql2oDepartmentDao(sql2o);
         conn = sql2o.open();
-    }
+    };
 
     @Override
     public void after(){
