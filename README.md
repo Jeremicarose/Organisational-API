@@ -10,7 +10,7 @@
 
 ## Description
  *  Users are able to create the following objects:-
-    Departments
+
 
   * News:
 
