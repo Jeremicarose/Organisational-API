@@ -50,7 +50,7 @@ public class App {
             User user = gson.fromJson(req.body(), User.class);
             userDao.add(user);
             res.type("application/json");
-            res.status(201);
+            res.status(201);;
             return gson.toJson(user);
         });
         post("/news/new", "application/json", (req, res)->{
